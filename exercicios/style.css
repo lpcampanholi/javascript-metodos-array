@@ -1,0 +1,21 @@
+.indisponivel {
+  opacity: 0.3;
+}
+
+
+.lista_livros {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.livro {
+  padding: 1em;
+  border: 1px solid #333;
+  border-radius: 0.3em;
+  list-style: none;
+}
+
+.livro img {
+  width: 50%;
+}
